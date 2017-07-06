@@ -1,7 +1,6 @@
 <template>
 <div>
   <p>
-    Here is the demo of vue-fullcalendar, no jquery fullcalendar.js required!
     <button type="button" @click="addMonth">+</button>
   </p>
   <full-calendar class="test-fc" :events="fcEvents" first-day='1' locale="fr" v-for="month in months" :key="month" :currentMonth="month" @changeMonth="changeMonth" @eventClick="eventClick" @dayClick="dayClick" @moreClick="moreClick">
