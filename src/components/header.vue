@@ -51,22 +51,3 @@
     }
   }
 </script>
-<style lang="scss">
-.full-calendar-header{
-  display: flex;
-  align-items: center;
-  .header-left,.header-right{
-    flex:1;
-  }
-  .header-center{
-    flex:3;
-    text-align:center;
-    .title{
-      margin: 0 10px;
-    }
-    .prev-month,.next-month{
-      cursor: pointer;
-    }
-  }
-}
-</style>
